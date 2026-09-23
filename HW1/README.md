@@ -16,10 +16,10 @@ flask run
 ## 실행 화면
 
 ### / (메인)
-<!-- 캡처를 여기에 끌어다 놓으세요 -->
+![home](screenshots/home.png)
 
 ### /profile
-<!-- 캡처를 여기에 끌어다 놓으세요 -->
+![profile](screenshots/profile.png)
 
 ### /greet/이름
-<!-- 캡처를 여기에 끌어다 놓으세요 -->
+![greet](screenshots/greet.png)
