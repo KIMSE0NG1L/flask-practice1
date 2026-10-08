@@ -15,13 +15,13 @@
 <ul>
     {% for todo in todos %}
     <li>
+        <a href="{{ url_for('toggle', id=todo.id) }}">완료</a>
         {% if todo.done %}
         <span class="done">{{ todo.text }}</span>
         {% else %}
         {{ todo.text }}
         {% endif %}
         <span class="note">{{ todo.note }}</span>
-        <a href="{{ url_for('toggle', id=todo.id) }}">완료</a>
         <a href="{{ url_for('edit', id=todo.id) }}">수정</a>
         <a href="{{ url_for('delete', id=todo.id) }}">Delete</a>
     </li>
